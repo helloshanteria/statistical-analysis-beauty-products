@@ -1,4 +1,7 @@
 # customer-sales-insights
+
+![Customer Sales Insights Banner](images/github_banner.png)
+
 My first data analytics project analyzing customer sales data.
 # Customer Sales Insights — Beauty Trends in Atlanta
 
@@ -29,8 +32,9 @@ customer-sales-insights/
 ├── notebooks/
 │   └── sales_analysis.ipynb     # Jupyter notebook with EDA & visualizations
 │
-├── images/                      # (Optional) Charts/screenshots
-├── requirements.txt             # Python dependencies (optional)
+├── images/                       # Banner and visualizations
+│   └── github_banner.png         # GitHub profile banner
+├── requirements.txt              # Python dependencies (optional)
 └── README.md                    # Project overview and instructions
 ```
 
