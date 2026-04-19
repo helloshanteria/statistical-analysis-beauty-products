@@ -52,3 +52,6 @@ This project demonstrates how data analysis can be used to identify trends and s
 - Analyze sales trends over time
 - Build interactive dashboards
 - Apply predictive modeling to forecast future sales
+
+## Full Report
+[View Full Analysis](./Project1%20-%20Beauty%20Products.pdf)
