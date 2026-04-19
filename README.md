@@ -1,7 +1,7 @@
 # Customer Sales Insights Analysis
 
 ## Overview
-This project analyzes customer sales data to uncover trends in product performance, regional demand, and customer purchasing behavior. The goal is to provide insights that can help businesses make data-driven decisions to improve sales and optimize product strategy.
+This project demonstrates how R can be used to analyze sales data, uncover trends, and support data-driven business decisions.
 
 ## Business Problem
 A business needs to understand:
@@ -22,16 +22,17 @@ The dataset includes:
 - Date
 
 ## Tools Used
-- Python
-- Pandas
-- Matplotlib
-- Seaborn
+- R
+- tidyverse
+- dplyr
+- ggplot2
 
 ## Analysis Performed
-- Cleaned and prepared raw sales data
-- Filtered data for targeted regional analysis (Atlanta)
-- Grouped and aggregated sales by product and category
-- Identified top-performing products based on revenue
+- Cleaned and prepared data using R
+- Filtered data for regional analysis (Atlanta)
+- Aggregated sales by product and category using dplyr
+- Visualized sales trends using ggplot2
+- Identified top-performing products based on total sales
 
 ## Key Insights
 - Certain products consistently generate higher sales in the Atlanta region
