@@ -1,76 +1,53 @@
-# customer-sales-insights
-My first data analytics project analyzing customer sales data.
-# Customer Sales Insights — Beauty Trends in Atlanta
+# Customer Sales Insights Analysis
 
-Welcome to my first data analytics project on GitHub! In this project, I analyze a fictional dataset of beauty product sales to uncover top-selling products in Atlanta, GA. This is part of my journey in learning data analytics, data visualization, and storytelling with real data.
+## Overview
+This project analyzes customer sales data to uncover trends in product performance, regional demand, and customer purchasing behavior. The goal is to provide insights that can help businesses make data-driven decisions to improve sales and optimize product strategy.
 
----
+## Business Problem
+A business needs to understand:
+- Which products generate the most revenue
+- Which regions perform the best
+- How customer behavior impacts sales performance
 
-## Objective
-To analyze sales trends by city and identify the top beauty products purchased in Atlanta, Georgia.
+Without this insight, companies risk investing in low-performing products and missing opportunities in high-performing markets.
 
----
+## Data
+The dataset includes:
+- Order ID
+- Customer ID
+- Region
+- Product
+- Category
+- Sales
+- Date
 
 ## Tools Used
-- **Python**
-- **Jupyter Notebook**
-- **Pandas**
-- **Matplotlib & Seaborn**
-- **Git & GitHub**
+- Python
+- Pandas
+- Matplotlib
+- Seaborn
 
----
+## Analysis Performed
+- Cleaned and prepared raw sales data
+- Filtered data for targeted regional analysis (Atlanta)
+- Grouped and aggregated sales by product and category
+- Identified top-performing products based on revenue
 
-## 🗂️ Folder Structure
-```
-customer-sales-insights/
-├── data/
-│   └── sales_data.csv            # Sample beauty sales dataset
-│
-├── notebooks/
-│   └── sales_analysis.ipynb     # Jupyter notebook with EDA & visualizations
-│
-├── images/                      # (Optional) Charts/screenshots
-├── requirements.txt             # Python dependencies (optional)
-└── README.md                    # Project overview and instructions
-```
+## Key Insights
+- Certain products consistently generate higher sales in the Atlanta region
+- Sales performance varies significantly across regions
+- Product categories such as hair care and makeup contribute differently to total revenue
 
----
+## Business Impact
+These insights can help businesses:
+- Focus on high-performing products to increase revenue
+- Adjust marketing strategies by region
+- Make better inventory and pricing decisions
 
-## Sample Analysis Questions
-- What are the top-selling beauty products in Atlanta?
-- Which product categories perform best?
-- How do sales compare by city or region?
-- Are there seasonal patterns in purchasing?
+## Conclusion
+This project demonstrates how data analysis can be used to identify trends and support strategic business decisions. By leveraging sales data, businesses can better understand their market and improve overall performance.
 
----
-
-## How to Run This Project
-1. Clone this repo:
-```bash
-git clone git@github.com:helloshanteria/customer-sales-insights.git
-cd customer-sales-insights
-```
-
-2. (Optional) Create a virtual environment and install dependencies:
-```bash
-pip install -r requirements.txt
-```
-
-3. Open the notebook:
-```bash
-jupyter notebook notebooks/sales_analysis.ipynb
-```
-
-4. Run all cells to view the analysis.
-
----
-
-## Key Findings *(To Be Updated)*
-- Lip Gloss and Hair Oil are among the top-selling beauty products in Atlanta
-- Makeup category is dominant in Atlanta sales
-
----
-
-## Author
-**Shanteria Johnson**  
-Data Analytics Student | Aspiring Analyst | Beauty + Data Enthusiast
+## Next Steps
+- Analyze sales trends over time
+- Build interactive dashboards
+- Apply predictive modeling to forecast future sales
