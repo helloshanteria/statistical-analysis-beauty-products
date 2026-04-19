@@ -1,57 +1,38 @@
-# Customer Sales Insights Analysis
+# Statistical Analysis of Consumer Spending on Beauty Products
 
 ## Overview
-This project demonstrates how R can be used to analyze sales data, uncover trends, and support data-driven business decisions.
+This project analyzes monthly spending habits on beauty products among women ages 18–38 in Atlanta, Georgia. The goal is to understand consumer behavior, identify spending patterns, and explore which beauty categories are most frequently prioritized.
 
-## Business Problem
-A business needs to understand:
-- Which products generate the most revenue
-- Which regions perform the best
-- How customer behavior impacts sales performance
-
-Without this insight, companies risk investing in low-performing products and missing opportunities in high-performing markets.
+## Project Goal
+The purpose of this analysis is to examine how much consumers spend on beauty products each month and gain insights into purchasing behavior. This project also explores the potential of the beauty industry from a business perspective.
 
 ## Data
-The dataset includes:
-- Order ID
-- Customer ID
-- Region
-- Product
-- Category
-- Sales
-- Date
+The dataset consists of 20 responses and includes:
+- Monthly spending on beauty products
+- Number of products purchased per month
+- Category of beauty products spent on the most (skincare, makeup, haircare, nails)
 
 ## Tools Used
 - R
-- tidyverse
-- dplyr
-- ggplot2
+- RStudio
 
 ## Analysis Performed
-- Cleaned and prepared data using R
-- Filtered data for regional analysis (Atlanta)
-- Aggregated sales by product and category using dplyr
-- Visualized sales trends using ggplot2
-- Identified top-performing products based on total sales
+- Calculated descriptive statistics (mean, median, quartiles, range, standard deviation)
+- Identified the 20th and 95th percentiles
+- Analyzed distribution of spending using a histogram
+- Used a boxplot to visualize spread and identify outliers
+- Evaluated category frequency for beauty product preferences
 
-## Key Insights
-- Certain products consistently generate higher sales in the Atlanta region
-- Sales performance varies significantly across regions
-- Product categories such as hair care and makeup contribute differently to total revenue
-
-## Business Impact
-These insights can help businesses:
-- Focus on high-performing products to increase revenue
-- Adjust marketing strategies by region
-- Make better inventory and pricing decisions
+## Key Findings
+- Monthly spending ranged from $20 to $150
+- Average monthly spending was approximately $73.75
+- The data distribution was approximately symmetrical
+- No significant outliers were detected using the IQR method
+- Skincare and makeup were the most frequently selected categories (30% each)
+- Haircare accounted for 25%, and nails accounted for 15%
 
 ## Conclusion
-This project demonstrates how data analysis can be used to identify trends and support strategic business decisions. By leveraging sales data, businesses can better understand their market and improve overall performance.
-
-## Next Steps
-- Analyze sales trends over time
-- Build interactive dashboards
-- Apply predictive modeling to forecast future sales
+This analysis shows that consumer spending on beauty products is relatively consistent, with a wide range of spending habits. The data suggests steady demand across multiple beauty categories, especially skincare and makeup. These insights can be useful for understanding customer behavior and exploring opportunities within the beauty industry.
 
 ## Full Report
 [View Full Analysis](./Project1%20-%20Beauty%20Products.pdf)
