@@ -1,7 +1,8 @@
 # Statistical Analysis of Consumer Spending on Beauty Products
+This project analyzes beauty product sales data using both R and Python to identify top-performing products and visualize key trends.
 
 ## Overview
-This project analyzes monthly spending habits on beauty products among women ages 18–38 in Atlanta, Georgia. The goal is to understand consumer behavior, identify spending patterns, and explore which beauty categories are most frequently prioritized.
+Analyze monthly spending habits on beauty products among women ages 18–38 in Atlanta, Georgia. The goal is to understand consumer behavior, identify spending patterns, and explore which beauty categories are most frequently prioritized.
 
 ## Analysis Objective
 The purpose of this analysis is to examine how much consumers spend on beauty products each month and gain insights into purchasing behavior. This project also explores the potential of the beauty industry from a business perspective.
